@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" }
+  ],
+  "builds": [
+    { "src": "login.html", "use": "@vercel/static" }
+  ]
+}
